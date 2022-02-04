@@ -7,6 +7,11 @@
   position: fixed;
   right: 2em;
   bottom: 2em;
+  max-height: 52px;
+
+  &.open {
+    max-height: max-content;
+  }
 
   li {
     border-radius: 50%;

@@ -13,7 +13,7 @@ const FAB = ({ actions }) => {
 
   return (
     <ul
-      className="fab-container"
+      className={cn("fab-container", { open })}
       onMouseEnter={mouseEnter}
       onMouseLeave={mouseLeave}
     >
